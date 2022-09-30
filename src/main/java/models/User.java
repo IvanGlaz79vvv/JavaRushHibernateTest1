@@ -1,12 +1,11 @@
 package models;
 
-import javax.annotation.processing.Generated;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table (name = "users")
+@Table(name = "users")
 public class User {
 
     @id
@@ -28,5 +27,47 @@ public class User {
 
     public void addAuto(Auto auto) {
         auto.setUser(this);
+        autos.add(auto);
     }
+
+    public void removeAuto(Auto auto)
+        autos.remove(auto);
 }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public List<Auto> getAutos() {
+        return autos;
+    }
+
+public void setAutos(List<Auto> autos) {
+    this.autos = autos;
+}
+
+@Override
+public String toString() {
+    return "models.User{" +
+            "id = " + id +
+            ", name = '" + name +'\'' +
+            ", age = " + age +
+            '}';
+}
+

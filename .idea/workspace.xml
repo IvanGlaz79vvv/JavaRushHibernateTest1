@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7028012b-d39b-496d-89c9-64d52ca7d565" name="Changes" comment="Test Hibernate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +53,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;mysql&quot;
+      &quot;mysql&quot;,
+      &quot;postgresql&quot;
     ]
   }
 }</component>
@@ -82,7 +84,8 @@
       <updated>1664285382076</updated>
       <workItem from="1664285389434" duration="3556000" />
       <workItem from="1664404125475" duration="301000" />
-      <workItem from="1664522572230" duration="1583000" />
+      <workItem from="1664522572230" duration="2195000" />
+      <workItem from="1664539542758" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="Test Hibernate">
       <created>1664523237414</created>
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664523237414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test Hibernate">
+      <created>1664524391617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664524391617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

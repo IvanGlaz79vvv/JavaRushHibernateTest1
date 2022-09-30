@@ -16,7 +16,7 @@ public class User {
     //можно не указывать Column name, если оно совпадает с названием столбца в таблице
     private int age;
 
-    @OneToMany(mappedBy = "user", cscade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Auto> autos;
 
     public User(String name, int age) {
@@ -30,9 +30,9 @@ public class User {
         autos.add(auto);
     }
 
-    public void removeAuto(Auto auto)
+    public void removeAuto(Auto auto) {
         autos.remove(auto);
-}
+    }
 
     public int getId() {
         return id;
@@ -58,16 +58,16 @@ public class User {
         return autos;
     }
 
-public void setAutos(List<Auto> autos) {
-    this.autos = autos;
-}
+    public void setAutos(List<Auto> autos) {
+        this.autos = autos;
+    }
 
-@Override
-public String toString() {
-    return "models.User{" +
-            "id = " + id +
-            ", name = '" + name +'\'' +
-            ", age = " + age +
-            '}';
+    @Override
+    public String toString() {
+        return "models.User{" +
+                "id = " + id +
+                ", name = '" + name + '\'' +
+                ", age = " + age +
+                '}';
+    }
 }
-
